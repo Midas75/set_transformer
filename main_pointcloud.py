@@ -6,8 +6,8 @@ import torch
 import torch.nn as nn
 from torch.utils.tensorboard import SummaryWriter
 
-from data_modelnet40 import ModelFetcher
-from modules import ISAB, PMA, SAB
+from .data_modelnet40 import ModelFetcher
+from .modules import ISAB, PMA, SAB
 
 
 class SetTransformer(nn.Module):
